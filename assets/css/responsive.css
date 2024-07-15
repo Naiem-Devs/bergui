@@ -1,0 +1,126 @@
+@media (min-width: 1921px) {
+ 
+}
+
+/* XXL Device :1200px. */
+@media (min-width: 320px) and (max-width: 1680px) {
+ 
+  
+}
+
+@media (min-width: 320px) and (max-width: 1399px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1140px;
+  }
+
+}
+
+/* LG Device :1200px. */
+@media (min-width: 320px) and (max-width: 1199px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 960px;
+  }
+  .hero__wrap {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+}
+  .hero__content {
+    padding: 220px 15px 60px;
+    color: var(--textWhite);
+}
+}
+
+/* MD Device :768px. */
+@media (min-width: 320px) and (max-width: 991px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 720px;
+  }
+  h1,h2 {
+    font-size: 28px;
+}
+h4 {
+  font-size: 18px;
+}
+.nice-select {
+  font-size: 16px;
+  margin-top: -11px;
+}
+.header__nav {
+  align-items: center;
+  gap: 28px;
+}
+  .logo a img {
+    width: 150px;
+}
+
+.header__wrap {
+    padding: 10px 0px 12px;
+}
+
+section.hero__area {
+    margin-bottom: 50px;
+}
+
+.section__content {
+    gap: 15px;
+}
+
+.img3 {
+    margin-top: -28px;
+}
+
+.section2__img {
+    margin-top: -72px;
+}
+
+section.section2__area {
+    margin-bottom: 45px;
+}
+
+section.section3__area {
+  margin-bottom: 30px;
+}
+}
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  h1,h2 {
+    font-size: 25px;
+}
+h4 {
+  font-size: 16px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  
+}
+
+/* SM Small Device :576px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 540px;
+  }
+
+}
